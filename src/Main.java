@@ -8,6 +8,32 @@ public class Main {
         float appleCost = 25.00f;
         char currency = '৳';
 
+        String A = "1";
+        String B = "1";
+        String C = "1";
+        String D = A + B + C ;
+        int E = 1;
+
+        int numberOfA = Integer.parseInt(A);
+        int numberOfB = Integer.parseInt(B);
+        int numberOfC = Integer.parseInt(C);
+        int numberOfD = Integer.parseInt(D);
+
+        System.out.println(numberOfA+numberOfB+numberOfC);
+
+        System.out.println(numberOfD+E+E);
+
+
+        System.out.println(numberOfD);
+
+
+
+        System.out.println(A+B+C+D);
+
+        System.out.println(D);
+
+
+
         float totalCostOfApple = totalApple * appleCost;
         int totalMango = items - totalApple;
         float totalCostOfMango = costOfItems - totalCostOfApple ;
@@ -40,6 +66,12 @@ public class Main {
         System.out.println(textOne.toUpperCase());
 
         System.out.println(myName.indexOf("."));
+
+        System.out.println(itemsNameOne + " " + itemsNameTwo);
+
+        System.out.println("Items name "+ itemsNameOne .concat(itemsNameTwo) );
+
+
 
     }
 }
