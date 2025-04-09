@@ -1,5 +1,63 @@
 public class Main {
     public static void main(String[] args) {
+
+        int mySalary = 500;
+        double myCost = 450.50d;
+
+        double myTotalSalary = mySalary;
+
+
+        //this is one way of automatically type casting
+        double mySaving =  myTotalSalary - myCost;
+        System.out.println(myTotalSalary);//500.0
+        System.out.println(mySaving);//49.5
+
+        //this another way of automatically type casting
+        double mySavingNew = (double) mySalary-myCost;
+        System.out.println((double) mySalary);//500.0
+        System.out.println(mySavingNew);//49.5
+        System.out.println((double) mySalary - myCost);//49.5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         int items = 5;
         float costOfItems = 100.00f;
         String itemsNameOne = "Apple";
@@ -7,7 +65,6 @@ public class Main {
         int totalApple = 3;
         float appleCost = 25.00f;
         char currency = '৳';
-
         String A = "1";
         String B = "1";
         String C = "1";
