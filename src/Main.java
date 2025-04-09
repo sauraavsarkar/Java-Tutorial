@@ -1,11 +1,15 @@
 public class Main {
     public static void main(String[] args) {
 
+
+
+        System.out.println("Widening Casting or automatically Casting" );
+
+
         int mySalary = 500;
         double myCost = 450.50d;
 
         double myTotalSalary = mySalary;
-
 
         //this is one way of automatically type casting
         double mySaving =  myTotalSalary - myCost;
@@ -17,6 +21,29 @@ public class Main {
         System.out.println((double) mySalary);//500.0
         System.out.println(mySavingNew);//49.5
         System.out.println((double) mySalary - myCost);//49.5
+
+
+
+
+        //Narrowing Casting or manually Casting
+        System.out.println("Narrowing Casting or manually Casting" );
+
+        double myNewSalary = 555.00d;
+        double myNewCost = 55.00d;
+
+        int myIntNewSalary = (int) myNewSalary;
+        int myIntNewCost = (int) myNewCost;
+
+
+        double myNewSaving = myNewSalary - myNewCost;
+        int myIntNewSaving = myIntNewSalary - myIntNewCost;
+
+
+        System.out.println(myNewSaving);
+        System.out.println(myIntNewSalary-myIntNewCost);
+        System.out.println(myIntNewSaving);
+
+
 
 
 
