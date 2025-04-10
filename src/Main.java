@@ -1,11 +1,68 @@
 public class Main {
     public static void main(String[] args) {
 
+        String firstName = "Saurav";
+        String lastName = "Sarkar";
+
+        System.out.println(firstName+" "+lastName);
+
+        System.out.println(firstName.concat(lastName));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        System.out.println(" ");
+
+        System.out.println(" ");
+
+        System.out.println(" ");
+
+        System.out.println(" ");
+
+        //Java Type Casting
+
+        int kamlaTake = 310;
+
+        int RahimTake = 200;
+
+        float averageRun = (float)kamlaTake+RahimTake / 2f ;
+
+        System.out.println("Average run :" + averageRun);
+
+        System.out.println( kamlaTake < RahimTake );
+
+        System.out.println( RahimTake< averageRun);
 
 
         System.out.println("Widening Casting or automatically Casting" );
-
-
         int mySalary = 500;
         double myCost = 450.50d;
 
@@ -21,10 +78,6 @@ public class Main {
         System.out.println((double) mySalary);//500.0
         System.out.println(mySavingNew);//49.5
         System.out.println((double) mySalary - myCost);//49.5
-
-
-
-
         //Narrowing Casting or manually Casting
         System.out.println("Narrowing Casting or manually Casting" );
 
@@ -33,8 +86,6 @@ public class Main {
 
         int myIntNewSalary = (int) myNewSalary;
         int myIntNewCost = (int) myNewCost;
-
-
         double myNewSaving = myNewSalary - myNewCost;
         int myIntNewSaving = myIntNewSalary - myIntNewCost;
 
@@ -42,47 +93,6 @@ public class Main {
         System.out.println(myNewSaving);
         System.out.println(myIntNewSalary-myIntNewCost);
         System.out.println(myIntNewSaving);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
         int items = 5;
