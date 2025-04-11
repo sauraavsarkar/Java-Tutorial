@@ -1,51 +1,73 @@
 public class Main {
     public static void main(String[] args) {
 
+
+        //Strings - Special Characters
+
+        String textIs1 = "My name is \"Saurav Sarkar\"";
+
+        String textIs2 = "It\'s Okay";
+
+        String textIs3 = "The character \\ is called backslash.";
+
+        String textIs4 = "Hi my is saurav sarkar \n i am live in \r dhaka . Dhaka is the capital and \t largest city of Bangladesh. It is located in the \b geographic center of the country in the great deltaic region \f of the Ganges and Brahmaputra rivers. ";
+
+
+        System.out.println(textIs1);
+
+        System.out.println("\n");
+
+
+        System.out.println(textIs2);
+
+        System.out.println(textIs3);
+
+        System.out.println(textIs4);
+
+
+
+
+
+//        System.out.println("\r");
+//        System.out.println("\t");
+//        System.out.println("\b");
+//        System.out.println("\f");
+
+
+
+
+        System.out.println(" ");
+
+        System.out.println(" ");
+
+        System.out.println(" ");
+
+        System.out.println(" ");
+
+        //Adding Numbers and Strings
+        int myAge = 25;
+        int friendAge = 26;
+
+        String myNameIs = "Saurav";
+        String friendName = "Sarkar";
+
+        String myRealAge = "25";
+        String friendRealAge = "26";
+
+        System.out.println( myAge + friendAge);
+
+        System.out.println(myNameIs+friendName);
+
+        System.out.println(myRealAge+friendRealAge);
+
+        //String Concatenation
+
         String firstName = "Saurav";
         String lastName = "Sarkar";
 
         System.out.println(firstName+" "+lastName);
 
         System.out.println(firstName.concat(lastName));
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        System.out.println(" ");
-
-        System.out.println(" ");
-
-        System.out.println(" ");
-
-        System.out.println(" ");
 
         //Java Type Casting
 
