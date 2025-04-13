@@ -1,5 +1,56 @@
+import javax.swing.*;
+
 public class Main {
     public static void main(String[] args) {
+
+
+
+
+        System.out.println(" ");
+        System.out.println(" ");
+        System.out.println(" ");
+
+        //Java Math
+
+        int javaMath = 5;
+        int javaMath1 = 10;
+
+        System.out.println(Math.max(5,10)); //maximum of two numbers
+        System.out.println(Math.min(5,10));//minimum of two numbers
+        System.out.println(Math.sqrt(81));//Square root
+        System.out.println(Math.abs(-81.125)); //Absolute value
+        System.out.println(Math.sqrt(81));//Square root
+        System.out.println(Math.cbrt(64));//Cube root
+        System.out.println(Math.round(4.5));//Rounds to nearest integer
+        System.out.println(Math.ceil(4.5));//Rounds up to nearest integer
+        System.out.println(Math.floor(4.8));//Rounds down to nearest integer
+        System.out.println(Math.random());//Returns a random
+        System.out.println(Math.log(5));//Natural logarithm
+        System.out.println(Math.log10(100));//Logarithm base 10
+        System.out.println(Math.exp(1));//Returns Euler’s number
+        System.out.println(Math.toRadians(180));//Converts degrees to radians
+        System.out.println(Math.toDegrees(3.141595));//Converts degrees to radians
+
+
+        System.out.println(" ");
+
+        System.out.println(Math.pow(2,2)); //power of
+
+
+        int randomNum = (int)(Math.random()*101);
+        System.out.println(Math.random());
+
+        System.out.println(randomNum);
+
+
+
+        System.out.println(Math.max(javaMath,javaMath1));
+
+
+
+
+
+
 
 
         //Strings - Special Characters
@@ -12,37 +63,13 @@ public class Main {
 
         String textIs4 = "Hi my is saurav sarkar \n i am live in \r dhaka . Dhaka is the capital and \t largest city of Bangladesh. It is located in the \b geographic center of the country in the great deltaic region \f of the Ganges and Brahmaputra rivers. ";
 
-
         System.out.println(textIs1);
-
-        System.out.println("\n");
-
 
         System.out.println(textIs2);
 
         System.out.println(textIs3);
 
         System.out.println(textIs4);
-
-
-
-
-
-//        System.out.println("\r");
-//        System.out.println("\t");
-//        System.out.println("\b");
-//        System.out.println("\f");
-
-
-
-
-        System.out.println(" ");
-
-        System.out.println(" ");
-
-        System.out.println(" ");
-
-        System.out.println(" ");
 
         //Adding Numbers and Strings
         int myAge = 25;
