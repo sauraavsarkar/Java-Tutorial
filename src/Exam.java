@@ -50,6 +50,37 @@ public class Exam {
             System.out.println(text.charAt(textJava));
         }
 
+
+
+        //For-Each Loop
+        System.out.print("\n");
+
+        System.out.print("Output: \n");
+
+        String eachOne = "java";
+        char [] cr =  eachOne.toCharArray();
+
+        System.out.println(cr[2]);
+        System.out.println(eachOne.charAt(2));
+
+        for (char ik : eachOne.toCharArray()){
+            System.out.println(ik);
+        }
+
+
+
+        for (int i = 0; i < 10; i++) {
+            if (i == 4) {
+                break;
+            }
+            System.out.println(i);
+        }
+
+
+
+
+
+
 //        Question - 4:
 //        Sum on an odd number series
 //        Output:
@@ -78,7 +109,7 @@ public class Exam {
         System.out.print("Output: ");
         for (int squares=1; squares<=5; squares++ ){
             System.out.print(squares +"*"+squares);
-            squaresSum += squares *squares;
+            squaresSum += squares * squares;
             if(squares < 5){
                 System.out.print(" + ");
             }
