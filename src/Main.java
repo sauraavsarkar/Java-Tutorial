@@ -509,5 +509,33 @@ public class Main {
         }
 
 
+
+        System.out.println(" ");
+        System.out.println(" ");
+        System.out.println(" ");
+
+        //Java For Loop
+
+        for (int iFor = 0; iFor <= 5; iFor++) {
+            System.out.println("Number " + iFor);
+        }
+
+
+
+
+        for (int iFor = 0; iFor <= 10; iFor = iFor + 2) {
+            System.out.println("even number " + iFor);
+        }
+
+        for (int iFor = 0; iFor <= 10; iFor = iFor + 2) {
+            System.out.println("even number " + iFor);
+        }
+
+
+
+
+
+
+
     }
 }
