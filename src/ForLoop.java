@@ -92,10 +92,5 @@ public class ForLoop {
             System.out.println(q);
         }
 
-
-
-
-
-
     }
 }
